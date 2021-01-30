@@ -1,7 +1,10 @@
+function positiveSum(arr) {
+    let sum = 0
 
-
-function removeChar(str) {
-    //You got this!
-    return str.slice(1, -1);
-};
-console.log(removeChar('xhellox'));
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            sum += arr[i]
+        }
+    }
+    return (sum)
+}
