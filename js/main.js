@@ -1,6 +1,7 @@
-function makeNegative(num) {
-    // Code?
-    return -Math.abs(num)
-}
 
-console.log(makeNegative(5))
+
+function removeChar(str) {
+    //You got this!
+    return str.slice(1, -1);
+};
+console.log(removeChar('xhellox'));
