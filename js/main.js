@@ -1,15 +1,15 @@
 function getCount(str) {
-    str = str.toLowerCase
-    let vowels = ('aeiou')
+    // str = str.toLowerCase
     let vowelsCount = 0;
+    const vowels = ['a', 'e', 'i', 'o', 'u']
     // enter your majic here
-    for (let i = 0; i < str.length; i++) {
-        if (vowels.indexOf(str[i]) !== -1) {
-            vowelsCount++;
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            vowelsCount++
         }
     }
     return vowelsCount;
 }
 
-let solution = getCount('hi');
+let solution = getCount('abracadabra');
 console.log(solution)
