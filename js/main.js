@@ -1,14 +1,10 @@
-function countPositivesSumNegatives(input) {
-    let summedArr = [0, 0]
-    if (!input || input.length < 1) {
-        return [];
-    }
-    for (let i = 0; i < input.length; i++) {
-        if (input[i] > 0) {
-            summedArr[0]++
-        } else {
-            summedArr[1] += input[i];
-        }
-    }
-    return summedArr;
+function sumMix(x) {
+    const newArr = x.map(el => Number(el));
+    const reducer = newArr.reduce((acc, currentVal) => acc + currentVal)
+
+    return reducer
 }
+
+//turn into number
+//reduce method to return number
+//return number
