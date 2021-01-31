@@ -1,10 +1,14 @@
-function positiveSum(arr) {
-    let sum = 0
-
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > 0) {
-            sum += arr[i]
+function countPositivesSumNegatives(input) {
+    let summedArr = [0, 0]
+    if (!input || input.length < 1) {
+        return [];
+    }
+    for (let i = 0; i < input.length; i++) {
+        if (input[i] > 0) {
+            summedArr[0]++
+        } else {
+            summedArr[1] += input[i];
         }
     }
-    return (sum)
+    return summedArr;
 }
