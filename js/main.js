@@ -1,10 +1,9 @@
-function sumMix(x) {
-    const newArr = x.map(el => Number(el));
-    const reducer = newArr.reduce((acc, currentVal) => acc + currentVal)
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return args.sort((a,b)=>a-b)[0];
+    }
+  }
 
-    return reducer
-}
 
-//turn into number
-//reduce method to return number
-//return number
+  
+// 
