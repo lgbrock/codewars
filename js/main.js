@@ -1,7 +1,9 @@
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return args.sort((a,b)=>a-b)[0];
-    }
+function monkeyCount(n) {
+  const monkeys = []
+  for(i = 1; i<n+1; i++){
+    monkeys.push(i)
+  }
+  return monkeys;
   }
 
 
