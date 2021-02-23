@@ -30,3 +30,140 @@ function noSpace(x){
     }
   }
   
+
+// Convert a String to a Number
+var stringToNumber = function(str){
+  // put your code here
+  return parseInt(str);
+}
+
+
+// Function 1 - hello world
+// Write a function "greet" that returns "hello world!"
+function greet(){
+  return 'hello world!'
+}
+
+
+// Convert boolean values to strings 'Yes' or 'No'
+function boolToWord( bool ){
+  //...
+  if (bool === true){
+    return 'Yes'
+  } else{
+    return 'No'
+  }
+}
+
+
+// Convert a Number to a String!
+function numberToString(num) {
+  // Return a string of the number here!
+  return String(num)
+}
+
+numberToString(1)
+
+
+// String repeat
+function repeatStr (n, s) {
+  finalStr = ''
+  for(i = 0; i < n;i++){
+    finalStr += s
+  }
+  return finalStr
+}
+
+repeatStr(5, 'hi')
+
+
+// Sum Mixed Array
+function sumMix(x) {
+  const newArr = x.map(el => Number(el));
+  const reducer = newArr.reduce((acc, currentVal) => acc + currentVal)
+
+  return reducer
+}
+
+//turn into number
+//reduce method to return number
+//return number
+
+
+// Count of positives / sum of negatives
+function countPositivesSumNegatives(input) {
+  let summedArr = [0, 0]
+  if (!input || input.length < 1) {
+      return [];
+  }
+  for (let i = 0; i < input.length; i++) {
+      if (input[i] > 0) {
+          summedArr[0]++
+      } else {
+          summedArr[1] += input[i];
+      }
+  }
+  return summedArr;
+}
+
+
+// Remove First and Last Character
+function removeChar(str) {
+  //You got this!
+  return str.slice(1, -1);
+};
+console.log(removeChar('xhellox'));
+
+
+// Return Negative
+function makeNegative(num) {
+  // Code?
+  return -Math.abs(num)
+}
+
+console.log(makeNegative(5))
+
+
+// Vowel Count
+function getCount(str) {
+  // str = str.toLowerCase
+  let vowelsCount = 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u']
+  // enter your majic here
+  for (let char of str) {
+      if (vowels.includes(char)) {
+          vowelsCount++
+      }
+  }
+  return vowelsCount;
+}
+
+let solution = getCount('abracadabra');
+console.log(solution)
+
+
+// Sum of positive
+function positiveSum(arr) {
+  let sum = 0
+
+  for (let i = 0; i < arr.length; i++) {
+      if (arr[i] > 0) {
+          sum += arr[i]
+      }
+  }
+  return (sum)
+}
+
+
+// Reversed Strings
+const solution = str => str.split('').reverse().join('')
+
+
+// Opposite number
+const opposite = number => -number
+
+
+// Multiply
+function multiply(a, b){
+  return a * b
+}
