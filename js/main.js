@@ -1,4 +1,23 @@
-// Count the Monkeys 2.17.20
+// Convert number to reversed array of digits - 2.24.21
+function digitize(num) {
+ 
+}
+
+/*
+// Counting sheep... 2.24.21 - wrong answer
+function countSheeps(arrayOfSheep) {
+  const sheepCounter = 0;
+  for(i = 0; i < arrayOfSheep.length; i++){
+    if(sheepCounter[i]){
+      sheepCounter++
+    }
+  }
+  return sheepCounter
+}
+
+
+
+// Count the Monkeys 2.17.21
 function monkeyCount(n) {
   const monkeys = []
   for(i = 1; i<n+1; i++){
@@ -8,7 +27,7 @@ function monkeyCount(n) {
   }
 
 
-// Remove String Spaces 2.19.20
+// Remove String Spaces 2.19.21
 function noSpace(x){
   return x.split(" ").join('')
   }
@@ -167,3 +186,4 @@ const opposite = number => -number
 function multiply(a, b){
   return a * b
 }
+*/
