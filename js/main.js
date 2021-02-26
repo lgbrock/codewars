@@ -1,9 +1,28 @@
+// Write a function which converts the input string to uppercase.
+function makeUpperCase(str) {
+  let result = str.toUpperCase()
+  return result
+}
+console.log(makeUpperCase())
+
+/*
+// fake binary
+function fakeBin(x){
+  if (x >= 5){
+    return 1
+  }else{
+    return 0
+  }
+  }
+  console.log(fakeBin(7))
+
+
 function even_or_odd(num) {
   return(num % 2 == 0 ? 'Even' : 'Odd')
 }
 console.log(even_or_odd())
 
-/*
+
 // Convert number to reversed array of digits - 2.24.21
 function digitize(num) {
  
