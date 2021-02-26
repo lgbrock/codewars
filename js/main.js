@@ -1,9 +1,15 @@
+function even_or_odd(num) {
+  return(num % 2 == 0 ? 'Even' : 'Odd')
+}
+console.log(even_or_odd())
+
+/*
 // Convert number to reversed array of digits - 2.24.21
 function digitize(num) {
  
 }
 
-/*
+
 // Counting sheep... 2.24.21 - wrong answer
 function countSheeps(arrayOfSheep) {
   const sheepCounter = 0;
