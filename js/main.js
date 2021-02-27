@@ -1,3 +1,10 @@
+function doubleInteger(i) {
+    return i *2;
+  }
+
+
+
+/*
 // Write a function which converts the input string to uppercase.
 function makeUpperCase(str) {
   let result = str.toUpperCase()
@@ -5,7 +12,7 @@ function makeUpperCase(str) {
 }
 console.log(makeUpperCase())
 
-/*
+
 // fake binary
 function fakeBin(x){
   if (x >= 5){
