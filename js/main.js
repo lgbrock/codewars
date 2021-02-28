@@ -1,10 +1,19 @@
+// build a function that returns an array of integers from n to 1 where n>0
+const reverseSeq = n => {
+  for(let i = n; i >= 0; i -=1){
+    return [i]
+  }
+};
+console.log(3,4,5)
+
+
+/*
 function doubleInteger(i) {
     return i *2;
   }
 
 
 
-/*
 // Write a function which converts the input string to uppercase.
 function makeUpperCase(str) {
   let result = str.toUpperCase()
