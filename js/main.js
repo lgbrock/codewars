@@ -1,4 +1,27 @@
-// 
+
+
+
+
+/*
+// How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0
+  for(i = 0; i < classPoints.length; i++){
+    sum += classPoints[i]
+  }
+  return sum / classPoints.length < yourPoints ? true : false
+}
+
+
+
+// Convert a Boolean to a String
+function booleanToString(b){
+  return b.toString()
+}
+
+
+
+// You only need one - Beginner
 function check(a, x) {
   if (a.includes(x)) {
     return true
@@ -7,7 +30,8 @@ function check(a, x) {
   }
 }
 
-/*
+
+
 // build a function that returns an array of integers from n to 1 where n>0
 const reverseSeq = n => {
   for(let i = n; i >= 0; i -=1){
