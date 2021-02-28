@@ -1,3 +1,13 @@
+// 
+function check(a, x) {
+  if (a.includes(x)) {
+    return true
+  }else{
+    return false
+  }
+}
+
+/*
 // build a function that returns an array of integers from n to 1 where n>0
 const reverseSeq = n => {
   for(let i = n; i >= 0; i -=1){
@@ -7,7 +17,7 @@ const reverseSeq = n => {
 console.log(3,4,5)
 
 
-/*
+
 function doubleInteger(i) {
     return i *2;
   }
