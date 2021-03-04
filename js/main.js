@@ -1,5 +1,8 @@
-
-
+// 
+function grow(x){
+  return x.length * 2
+}
+console.log()
 
 
 /*
