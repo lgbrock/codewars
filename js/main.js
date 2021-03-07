@@ -1,4 +1,12 @@
-//
+// Count the divisors of a number
+function getDivisorsCnt(n){
+  let j = 0;
+  for(i = n; i > 0; i--){
+    if(n % i == 0) j++;
+  }
+return j;
+}
+console.log(getDivisorsCnt(10))
 
 
 /*
