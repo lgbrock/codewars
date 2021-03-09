@@ -1,4 +1,12 @@
-// Count the divisors of a number
+// Convert number to reversed array of digits
+function digitize(n) {
+  return n.reverse();
+}
+
+
+
+/*
+/ Count the divisors of a number
 function getDivisorsCnt(n){
   let j = 0;
   for(i = n; i > 0; i--){
@@ -9,7 +17,7 @@ return j;
 console.log(getDivisorsCnt(10))
 
 
-/*
+
 // Get Planet Name By ID
 function getPlanetName(id){
   var name;
