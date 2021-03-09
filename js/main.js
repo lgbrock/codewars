@@ -1,3 +1,17 @@
+// Transportation on vacation
+//for(let i = 0; i < d.length; i++){ if d.length > 7}
+function rentalCarCost(d) {
+  const cost = 40
+
+  if(d >= 7) return d * cost -50
+  if(d >= 3) return d * cost -20
+
+  return d * cost
+}
+console.log(rentalCarCost(7))
+
+
+/*
 // Convert number to reversed array of digits
 function digitize(n) {
   const answer = []
@@ -9,11 +23,9 @@ function digitize(n) {
   return answer
 }
 
-console.log(answer(1,3,5))
 
 
 
-/*
 / Count the divisors of a number
 function getDivisorsCnt(n){
   let j = 0;
