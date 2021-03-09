@@ -1,7 +1,15 @@
 // Convert number to reversed array of digits
 function digitize(n) {
-  return n.reverse();
+  const answer = []
+  const str = n.toString()
+
+  for(item of str){
+    answer.unshift(parseInt(item))
+  }
+  return answer
 }
+
+console.log(answer(1,3,5))
 
 
 
