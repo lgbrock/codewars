@@ -1,3 +1,16 @@
+// L1: Set alarm
+function setAlarm(employed, vacation){
+  if(employed && !vacation){
+    return true
+  } else {
+    return false
+  }
+}
+
+
+
+
+/*
 // Transportation on vacation
 //for(let i = 0; i < d.length; i++){ if d.length > 7}
 function rentalCarCost(d) {
@@ -11,7 +24,7 @@ function rentalCarCost(d) {
 console.log(rentalCarCost(7))
 
 
-/*
+
 // Convert number to reversed array of digits
 function digitize(n) {
   const answer = []
