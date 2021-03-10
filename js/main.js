@@ -1,3 +1,14 @@
+//Beginner Series #1 School Paperwork
+function paperwork(n, m) {
+  if(n < 0 || m < 0){
+    return 0
+  }
+  return n * m
+}
+console.log(paperwork(5, 5))
+
+
+/*
 // Calculate BMI
 function bmi(weight, height) {
   let bmi = weight / Math.pow(height, 2);
@@ -13,9 +24,9 @@ function bmi(weight, height) {
   }
 }
 
-bmi(180, 72)
 
-/*
+
+
 // L1: Set alarm
 unction setAlarm(employed, vacation){
   if(employed && !vacation){
