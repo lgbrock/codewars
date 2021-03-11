@@ -1,9 +1,35 @@
+// Grasshopper - Grade book
+function getGrade (s1, s2, s3) {
+  let total = s1 + s2 + s3;
+  let avg = total / 3;
+  console.log(avg)
+
+  if(avg >= 90) {
+    return 'A'
+  } else if (avg >= 80 && avg < 90) {
+    return 'B'
+  } else if (avg >= 70 && avg < 80) {
+    return 'C'
+  } else if (avg >= 60 && avg < 70) {
+    return 'D'
+  } else {
+    return 'F'
+  }
+}
+
+console.log(getGrade(80,80,70))
+
+
+
+
+/*
 // Function 3 - multiplying two numbers
 const multiply = (a,b) => a*b
 
 console.log(multiply(2,2))
 
-/*
+
+
 //Beginner Series #1 School Paperwork
 function paperwork(n, m) {
   if(n < 0 || m < 0){
