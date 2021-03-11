@@ -1,3 +1,9 @@
+// Function 3 - multiplying two numbers
+const multiply = (a,b) => a*b
+
+console.log(multiply(2,2))
+
+/*
 //Beginner Series #1 School Paperwork
 function paperwork(n, m) {
   if(n < 0 || m < 0){
@@ -8,7 +14,8 @@ function paperwork(n, m) {
 console.log(paperwork(5, 5))
 
 
-/*
+
+
 // Calculate BMI
 function bmi(weight, height) {
   let bmi = weight / Math.pow(height, 2);
