@@ -1,3 +1,16 @@
+// Simple multiplication
+function simpleMultiplication(number) {
+  if(number % 2 === 0){
+    return number * 8
+  }else {
+    return number * 9
+  }
+}
+console.log(simpleMultiplication(10))
+
+
+
+/*
 // Beginner Series #4 Cockroach
 function cockroachSpeed(s) {
   return Math.floor(s * 27.777778)
@@ -5,7 +18,7 @@ function cockroachSpeed(s) {
 console.log(`Your speed is ${cockroachSpeed(1)}cm/s`)
 
 
-/*
+
 // Convert a string to an array
 function stringToArray(string){
   return string.trim().split(' ')
