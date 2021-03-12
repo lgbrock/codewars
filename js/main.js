@@ -1,3 +1,12 @@
+// Beginner Series #4 Cockroach
+function cockroachSpeed(s) {
+  return Math.floor(s * 27.777778)
+}
+console.log(`Your speed is ${cockroachSpeed(1)}cm/s`)
+
+
+/*
+// Convert a string to an array
 function stringToArray(string){
   return string.trim().split(' ')
 }
@@ -5,7 +14,7 @@ console.log(stringToArray('logan brock'))
 
 
 
-/*
+
 // Grasshopper - Grade book
 function getGrade (s1, s2, s3) {
   let total = s1 + s2 + s3;
