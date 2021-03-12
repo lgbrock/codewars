@@ -1,3 +1,11 @@
+function stringToArray(string){
+  return string.trim().split(' ')
+}
+console.log(stringToArray('logan brock'))
+
+
+
+/*
 // Grasshopper - Grade book
 function getGrade (s1, s2, s3) {
   let total = s1 + s2 + s3;
@@ -22,7 +30,6 @@ console.log(getGrade(80,80,70))
 
 
 
-/*
 // Function 3 - multiplying two numbers
 const multiply = (a,b) => a*b
 
