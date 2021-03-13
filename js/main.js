@@ -1,3 +1,15 @@
+// Grasshopper - Personalized Message
+function greet (name, owner) {
+  if (name === owner){
+    return 'Hello boss'
+  } else {
+    return 'Hello guest'
+  }
+}
+
+
+
+/*
 // Simple multiplication
 function simpleMultiplication(number) {
   if(number % 2 === 0){
@@ -10,7 +22,7 @@ console.log(simpleMultiplication(10))
 
 
 
-/*
+
 // Beginner Series #4 Cockroach
 function cockroachSpeed(s) {
   return Math.floor(s * 27.777778)
