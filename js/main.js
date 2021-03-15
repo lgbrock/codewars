@@ -1,3 +1,10 @@
+// Third Angle of a Triangle
+const otherAngle = (a, b) => 180 - (a+b)
+console.log(otherAngle(2,2))
+
+
+
+/*
 // Grasshopper - Personalized Message
 function greet (name, owner) {
   if (name === owner){
@@ -9,7 +16,7 @@ function greet (name, owner) {
 
 
 
-/*
+
 // Simple multiplication
 function simpleMultiplication(number) {
   if(number % 2 === 0){
