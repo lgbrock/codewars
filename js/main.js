@@ -1,10 +1,23 @@
+// Grasshopper - Summation
+var summation = function (num) {
+  let sum = 0
+  for (let i = 1; i <= num; i++){
+    sum += i
+  }
+  return sum
+}
+console.log(2,5)
+
+
+/*
 // Beginner Series #2 Clock
 past = (h, m, s) => h * 3600000 + m * 60000 + s * 1000
 
-
 console.log(past(0,1,1))
 
-/*
+
+
+
 // Third Angle of a Triangle
 const otherAngle = (a, b) => 180 - (a+b)
 console.log(otherAngle(2,2))
