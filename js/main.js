@@ -1,3 +1,12 @@
+// Counting sheep
+function countSheeps(arrayOfSheep) {
+  return arrayOfSheep.filter(Boolean).length
+}
+
+
+
+
+/*
 // Grasshopper - Summation
 var summation = function (num) {
   let sum = 0
@@ -6,10 +15,10 @@ var summation = function (num) {
   }
   return sum
 }
-console.log(2,5)
 
 
-/*
+
+
 // Beginner Series #2 Clock
 past = (h, m, s) => h * 3600000 + m * 60000 + s * 1000
 
