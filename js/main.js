@@ -1,3 +1,23 @@
+// Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{
+  if(operation === '+'){
+    return value1 + value2
+  } else if (operation === '-'){
+    return value1 - value2
+  } else if (operation === '*'){
+    return value1 * value2
+  } else if (operation === '/'){
+    return value1 / value2
+  } else{
+    return 'Try again! 😊'
+  }
+}
+
+console.log(basicOp('+', 0,1))
+
+
+/*
 // Keep Hydrated!
 const litres = (time) => {
   let L = time * .5
@@ -7,7 +27,7 @@ console.log(litres(6))
 
 
 
-/*
+
 // Counting sheep
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter(Boolean).length
