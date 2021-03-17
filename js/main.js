@@ -1,3 +1,13 @@
+// Keep Hydrated!
+const litres = (time) => {
+  let L = time * .5
+  return Math.floor(L)
+}
+console.log(litres(6))
+
+
+
+/*
 // Counting sheep
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter(Boolean).length
@@ -6,7 +16,7 @@ function countSheeps(arrayOfSheep) {
 
 
 
-/*
+
 // Grasshopper - Summation
 var summation = function (num) {
   let sum = 0
