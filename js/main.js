@@ -1,3 +1,16 @@
+
+
+
+
+
+/*
+// Century From Year
+const century = (year) => Math.ceil(year/100)
+
+
+
+
+
 // Basic Mathematical Operations
 function basicOp(operation, value1, value2)
 {
@@ -17,7 +30,8 @@ function basicOp(operation, value1, value2)
 console.log(basicOp('+', 0,1))
 
 
-/*
+
+
 // Keep Hydrated!
 const litres = (time) => {
   let L = time * .5
