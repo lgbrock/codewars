@@ -1,3 +1,17 @@
+// Jenny's secret message
+function greet(name){
+  if(name === 'Johnny'){
+    return 'Hello, my love!'
+  } else{
+    return `Hello, ${name}!`
+  }    
+}
+console.log(greet('Logan'))
+
+
+
+
+/*
 // A Needle in the Haystack
 function findNeedle(haystack) {
   return 'found the needle at position ' + haystack.indexOf('needle')
@@ -11,7 +25,7 @@ console.log(findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'rand
 
 
 
-/*
+
 // Century From Year
 const century = (year) => Math.ceil(year/100)
 
