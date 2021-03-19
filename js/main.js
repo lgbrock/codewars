@@ -1,3 +1,11 @@
+// is he gonna survive?
+const hero = (bullets, dragons) => bullets >= dragons * 2 ? true : false;  
+const hero = (a, b) => a >= b * 2 ? true : false;
+
+
+
+
+/*
 // Jenny's secret message
 function greet(name){
   if(name === 'Johnny'){
@@ -11,7 +19,7 @@ console.log(greet('Logan'))
 
 
 
-/*
+
 // A Needle in the Haystack
 function findNeedle(haystack) {
   return 'found the needle at position ' + haystack.indexOf('needle')
