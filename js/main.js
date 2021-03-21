@@ -1,3 +1,10 @@
+// Sentence Smash
+const smash = (words) => words.join(' ')
+
+
+
+
+/*
 // Calculate average
 function find_average(array) {
   return array.reduce((result, currentValue) => result + currentValue, 0) / array.length;
@@ -6,7 +13,8 @@ function find_average(array) {
 console.log(find_average([2,2,2]))
 
 
-/*
+
+
 // Count by X
 function countBy(x, n) {
   var z = [];
