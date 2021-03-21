@@ -1,3 +1,14 @@
+// Count by X
+function countBy(x, n) {
+  var z = [];
+  for(let i = 1; i <= x * n; i++)
+  if(i % x === 0) z.push(i)
+  return z;
+}
+console.log(countBy(2,10))
+
+
+/*
 // Array plus array
 function arrayPlusArray(arr1, arr2) {
   return arr1.concat(arr2).reduce((acc, cur) => acc + cur)
@@ -7,7 +18,7 @@ console.log(arrayPlusArray([5],[5]))
 
 
 
-/*
+
 // is he gonna survive?
 const hero = (bullets, dragons) => bullets >= dragons * 2 ? true : false;  
 const hero = (a, b) => a >= b * 2 ? true : false;
