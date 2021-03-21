@@ -1,3 +1,12 @@
+// Calculate average
+function find_average(array) {
+  return array.reduce((result, currentValue) => result + currentValue, 0) / array.length;
+}
+
+console.log(find_average([2,2,2]))
+
+
+/*
 // Count by X
 function countBy(x, n) {
   var z = [];
@@ -8,7 +17,8 @@ function countBy(x, n) {
 console.log(countBy(2,10))
 
 
-/*
+
+
 // Array plus array
 function arrayPlusArray(arr1, arr2) {
   return arr1.concat(arr2).reduce((acc, cur) => acc + cur)
