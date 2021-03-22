@@ -1,9 +1,23 @@
+// If you can't sleep, just count sheep
+const countSheep = function (num){
+  let result = ''
+  for(let i = 1; i <= num; i++){
+    result += i.toString() + ' sheep...'
+  }
+  return result
+}
+
+console.log(countSheep(3))
+
+
+
+/*
 // Beginner - Reduce but Grow
 const grow = x => x.reduce((a,b) => a * b);
 
 
 
-/*
+
 // Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => mpg * fuelLeft >= distanceToPump;
 
