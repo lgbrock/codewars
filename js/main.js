@@ -1,10 +1,16 @@
+// Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => mpg * fuelLeft >= distanceToPump;
+
+
+
+
+/*
 // Sentence Smash
 const smash = (words) => words.join(' ')
 
 
 
 
-/*
 // Calculate average
 function find_average(array) {
   return array.reduce((result, currentValue) => result + currentValue, 0) / array.length;
