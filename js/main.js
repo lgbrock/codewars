@@ -1,10 +1,18 @@
+// Is the string uppercase?
+String.prototype.isUpperCase = function() {
+  return this.toString() === this.toUpperCase()
+} 
+
+
+
+
+/*
 // Grasshopper - Messi goals function
 const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => laLigaGoals + copaDelReyGoals + championsLeagueGoals
 
 
 
 
-/*
 // If you can't sleep, just count sheep
 const countSheep = function (num){
   let result = ''
