@@ -1,3 +1,10 @@
+// Grasshopper - Messi goals function
+const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => laLigaGoals + copaDelReyGoals + championsLeagueGoals
+
+
+
+
+/*
 // If you can't sleep, just count sheep
 const countSheep = function (num){
   let result = ''
@@ -11,7 +18,7 @@ console.log(countSheep(3))
 
 
 
-/*
+
 // Beginner - Reduce but Grow
 const grow = x => x.reduce((a,b) => a * b);
 
