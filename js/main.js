@@ -1,3 +1,12 @@
+// Function 2 - squaring an argument
+function squareNum(num) {
+  return Math.pow(num, 2)
+}
+console.log(squareNum(5,2))
+
+
+
+/*
 // Is the string uppercase?
 String.prototype.isUpperCase = function() {
   return this.toString() === this.toUpperCase()
@@ -6,7 +15,7 @@ String.prototype.isUpperCase = function() {
 
 
 
-/*
+
 // Grasshopper - Messi goals function
 const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => laLigaGoals + copaDelReyGoals + championsLeagueGoals
 
