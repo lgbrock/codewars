@@ -1,12 +1,19 @@
-// Function 2 - squaring an argument
-function squareNum(num) {
-  return Math.pow(num, 2)
+// Removing elements
+function removeEveryOther(arr){
+  return arr.filter((e, i) => i % 2 === 0)
 }
-console.log(squareNum(5,2))
+
+
 
 
 
 /*
+// Function 2 - squaring an argument
+const square = a => Math.pow(a,2)
+
+
+
+
 // Is the string uppercase?
 String.prototype.isUpperCase = function() {
   return this.toString() === this.toUpperCase()
