@@ -1,3 +1,11 @@
+// Remove exclamation marks
+const removeExclamationMarks = (s) => s.replace(/!/g, '');
+
+
+
+
+
+/*
 // Removing elements
 function removeEveryOther(arr){
   return arr.filter((e, i) => i % 2 === 0)
@@ -7,7 +15,6 @@ function removeEveryOther(arr){
 
 
 
-/*
 // Function 2 - squaring an argument
 const square = a => Math.pow(a,2)
 
