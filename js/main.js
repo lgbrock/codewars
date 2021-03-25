@@ -1,3 +1,10 @@
+// Switch it Up!
+const switchItUp = n => ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine',][n]
+
+
+
+
+/*
 // Remove exclamation marks
 const removeExclamationMarks = (s) => s.replace(/!/g, '');
 
@@ -5,7 +12,7 @@ const removeExclamationMarks = (s) => s.replace(/!/g, '');
 
 
 
-/*
+
 // Removing elements
 function removeEveryOther(arr){
   return arr.filter((e, i) => i % 2 === 0)
