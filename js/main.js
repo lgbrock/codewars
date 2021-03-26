@@ -1,3 +1,9 @@
+// Is it even?
+const testEven = (n) => n % 2 == 0
+
+
+
+
 // Switch it Up!
 const switchItUp = n => ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine',][n]
 
