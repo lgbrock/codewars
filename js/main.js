@@ -1,5 +1,12 @@
+// Keep up the hoop
+const hoopCount = (n) => n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+
+
+
+/*
 // Is it even?
-const testEven = (n) => n % 2 == 0
+const testEven = n => n % 2 == 0
+
 
 
 
@@ -10,7 +17,7 @@ const switchItUp = n => ['Zero','One','Two','Three','Four','Five','Six','Seven',
 
 
 
-/*
+
 // Remove exclamation marks
 const removeExclamationMarks = (s) => s.replace(/!/g, '');
 
