@@ -1,3 +1,13 @@
+// Highest and Lowest
+const highAndLow = (numbers) => {
+  let nums = numbers.split(' ');
+  return `${Math.max(...nums)} ${Math.min(...nums)}`
+}
+
+
+
+
+/*
 // Find Maximum and Minimum Values of a List
 min = (list) => Math.min(...list);
 max = (list) => Math.max(...list);
@@ -5,7 +15,7 @@ max = (list) => Math.max(...list);
 
 
 
-/*
+
 // Sum arrays
 sum = (numbers) => numbers.reduce((a,b) => a + b, 0)
 
