@@ -1,3 +1,11 @@
+// Find Maximum and Minimum Values of a List
+min = (list) => Math.min(...list);
+max = (list) => Math.max(...list);
+
+
+
+
+/*
 // Sum arrays
 sum = (numbers) => numbers.reduce((a,b) => a + b, 0)
 
@@ -5,7 +13,7 @@ sum = (numbers) => numbers.reduce((a,b) => a + b, 0)
 
 
 
-/*
+
 // Fake binary
 const fakeBin = (x) => x.split('').map(n => n < 5 ? '0' : '1').join('')
 
