@@ -1,10 +1,25 @@
+// I love you, a little , a lot, passionately ... not at all
+const phrases = [
+  'not at all',
+  'I love you',
+  'a little',
+  'a lot',
+  'passionately',
+  'madly'
+]
+
+const howMuchILoveYou = n => phrases[n % 6]
+
+
+
+/*
 // Correct the mistakes of the character recognition software
 const correct = s => s.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
 
 
 
 
-/*
+
 // Highest and Lowest
 const highAndLow = (numbers) => {
   let nums = numbers.split(' ');
