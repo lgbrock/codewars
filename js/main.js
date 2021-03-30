@@ -1,3 +1,10 @@
+// Correct the mistakes of the character recognition software
+const correct = s => s.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
+
+
+
+
+/*
 // Highest and Lowest
 const highAndLow = (numbers) => {
   let nums = numbers.split(' ');
@@ -7,7 +14,7 @@ const highAndLow = (numbers) => {
 
 
 
-/*
+
 // Find Maximum and Minimum Values of a List
 min = (list) => Math.min(...list);
 max = (list) => Math.max(...list);
