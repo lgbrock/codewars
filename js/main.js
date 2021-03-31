@@ -1,3 +1,20 @@
+// Quarter of the year
+const quarterOf = (m) => {
+  if(m <= 3){
+    return 1
+  } else if(m > 3 && m <= 6) {
+    return 2
+  }else if(m > 6 && m <= 9) {
+    return 3
+  } else{
+    return 4
+  }
+}
+
+
+
+
+/*
 // I love you, a little , a lot, passionately ... not at all
 const phrases = [
   'not at all',
@@ -12,7 +29,7 @@ const howMuchILoveYou = n => phrases[n % 6]
 
 
 
-/*
+
 // Correct the mistakes of the character recognition software
 const correct = s => s.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
 
