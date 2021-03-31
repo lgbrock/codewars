@@ -1,3 +1,11 @@
+// Will there be enough space?
+const enough = (o, a, b) => a + b > o ? a + b - o : 0
+
+
+
+
+
+/*
 // Quarter of the year
 const quarterOf = (m) => {
   if(m <= 3){
@@ -14,7 +22,7 @@ const quarterOf = (m) => {
 
 
 
-/*
+
 // I love you, a little , a lot, passionately ... not at all
 const phrases = [
   'not at all',
