@@ -1,3 +1,18 @@
+// Rock Paper Scissors!
+const rps = (p1, p2) => {
+  if(p1 === 'rock' && p2 === 'scissors' || p1 === 'paper' && p2 === 'rock' || p1 === 'scissors' && p2 === 'paper'){
+    return 'Player 1 won!'
+  } else if(p2 === 'rock' && p1 === 'scissors' || p2 === 'paper' && p1 === 'rock' || p2 === 'scissors' && p1 === 'paper') {
+    return 'Player 2 won!' 
+  } else {
+    return 'Draw!'
+  }
+};
+
+
+
+
+/*
 // Will there be enough space?
 const enough = (o, a, b) => a + b > o ? a + b - o : 0
 
@@ -5,7 +20,7 @@ const enough = (o, a, b) => a + b > o ? a + b - o : 0
 
 
 
-/*
+
 // Quarter of the year
 const quarterOf = (m) => {
   if(m <= 3){
