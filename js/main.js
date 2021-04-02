@@ -1,10 +1,17 @@
+// Hello, Name or World!
+const hello = (name) => `Hello, ${name ? name[0].toUpperCase() + name.substring(1).toLowerCase() : 'World'}!`
+
+
+
+
+/*
 // Exclusive "or" (xor) Logical Operator
 xor = (a, b) => a !== b
 
 
 
 
-/*
+
 // Difference of Volumes of Cuboids
 const findDifference = ([a,b,c], [d,e,f]) => Math.abs(a*b*c - d*e*f)
 
