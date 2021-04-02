@@ -1,9 +1,17 @@
+// Exclusive "or" (xor) Logical Operator
+xor = (a, b) => a !== b
+
+
+
+
+/*
 // Difference of Volumes of Cuboids
 const findDifference = ([a,b,c], [d,e,f]) => Math.abs(a*b*c - d*e*f)
 
 
 
-/*
+
+
 // Rock Paper Scissors!
 const rps = (p1, p2) => {
   if(p1 === 'rock' && p2 === 'scissors' || p1 === 'paper' && p2 === 'rock' || p1 === 'scissors' && p2 === 'paper'){
