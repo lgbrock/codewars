@@ -1,10 +1,17 @@
+// Remove duplicates from list
+const distinct = a => [...new Set(a)]
+
+
+
+
+/*
 // Hello, Name or World!
 const hello = (name) => `Hello, ${name ? name[0].toUpperCase() + name.substring(1).toLowerCase() : 'World'}!`
 
 
 
 
-/*
+
 // Exclusive "or" (xor) Logical Operator
 xor = (a, b) => a !== b
 
