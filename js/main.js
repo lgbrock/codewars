@@ -1,10 +1,19 @@
+// Reverse list order
+const reverseList = list => list.reverse()
+
+list(1,2,3)
+
+
+
+
+/*
 // Remove duplicates from list
 const distinct = a => [...new Set(a)]
 
 
 
 
-/*
+
 // Hello, Name or World!
 const hello = (name) => `Hello, ${name ? name[0].toUpperCase() + name.substring(1).toLowerCase() : 'World'}!`
 
