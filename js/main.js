@@ -1,12 +1,20 @@
-// Reverse list order
-const reverseList = list => list.reverse()
+// Palindrome Strings
+const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
 
-list(1,2,3)
+
 
 
 
 
 /*
+// Reverse list order
+const reverseList = list => list.reverse()
+
+
+
+
+
+
 // Remove duplicates from list
 const distinct = a => [...new Set(a)]
 
