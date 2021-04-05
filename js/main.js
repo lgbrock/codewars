@@ -1,10 +1,18 @@
+// How many lightsabers do you own?
+const howManyLightsabersDoYouOwn = (name) => (name === 'Zach' ? 18 : 0)
+
+
+
+
+/*
 // Filling an array (part 1)
 const arr = N => (N ? [...new Array(N).keys()] : []);
 
 
 
 
-/*
+
+
 // Palindrome strings
 const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
 
