@@ -1,4 +1,11 @@
-// Palindrome Strings
+// Filling an array (part 1)
+const arr = N => (N ? [...new Array(N).keys()] : []);
+
+
+
+
+/*
+// Palindrome strings
 const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
 
 
@@ -6,7 +13,7 @@ const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
 
 
 
-/*
+
 // Reverse list order
 const reverseList = list => list.reverse()
 
