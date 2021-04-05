@@ -1,10 +1,18 @@
+// The 'if' function
+const _if(bool, func1, func2) => bool ? func1 : func2
+
+
+
+
+/*
 // How many lightsabers do you own?
 const howManyLightsabersDoYouOwn = (name) => (name === 'Zach' ? 18 : 0)
 
 
 
 
-/*
+
+
 // Filling an array (part 1)
 const arr = N => (N ? [...new Array(N).keys()] : []);
 
