@@ -1,10 +1,18 @@
+// No zeros for heros
+const noBoringZeros = (n) => n.toFixed(2)
+
+
+
+
+
+/*
 // The 'if' function
 const _if(bool, func1, func2) => bool ? func1 : func2
 
 
 
 
-/*
+
 // How many lightsabers do you own?
 const howManyLightsabersDoYouOwn = (name) => (name === 'Zach' ? 18 : 0)
 
