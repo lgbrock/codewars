@@ -1,11 +1,23 @@
-// No zeros for heros
-const noBoringZeros = (n) => n.toFixed(2)
+// 5 without numbers !!
+const unusualFive = () => ('hello').length
 
 
 
 
 
 /*
+// Cat years, Dog years
+const humanYearsCatYearsDogYears = (humanYears) => [
+  humanYears,
+  ( humanYears - 1 ? 16 : 11 ) + 4 * humanYears,
+  ( humanYears - 1 ? 14 : 10 ) + 5 * humanYears,
+]
+
+
+
+
+
+
 // The 'if' function
 const _if(bool, func1, func2) => bool ? func1 : func2
 
