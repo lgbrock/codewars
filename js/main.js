@@ -1,3 +1,10 @@
+// Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+const replace = (s) => s.replace(/[aeiou]/ig, '!')
+
+
+
+
+/*
 // 5 without numbers !!
 const unusualFive = () => ('hello').length
 
@@ -5,7 +12,7 @@ const unusualFive = () => ('hello').length
 
 
 
-/*
+
 // Cat years, Dog years
 const humanYearsCatYearsDogYears = (humanYears) => [
   humanYears,
