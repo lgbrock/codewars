@@ -1,10 +1,18 @@
+// Training JS #7: if..else and ternary operator
+const saleHotdogs = (n) => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90))
+
+
+
+
+
+/*
 // Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
 const replace = (s) => s.replace(/[aeiou]/ig, '!')
 
 
 
 
-/*
+
 // 5 without numbers !!
 const unusualFive = () => ('hello').length
 
