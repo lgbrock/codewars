@@ -1,10 +1,16 @@
-// 
-
+// The Wide-Mouthed frog!
+const mouthSize = animal => /alligator/i.test(animal) ? 'small' : 'wide'
 
 
 
 
 /*
+// Reversing Words in a String
+reverse = str => str.split(' ').reverse().join(' ')
+
+
+
+
 // Training JS #7: if..else and ternary operator
 const saleHotdogs = (n) => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90))
 
