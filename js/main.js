@@ -1,11 +1,19 @@
-// Contamination #1 -String-
-const contamination = (text, char) => char.repeat(text.length)
+// Expressions Matter
+const expressionMatter = (a, b, c) => Math.max(a*(b+c), a*b*c, a+b+c, (a+b)*c)
 
 
 
 
 
 /*
+// Contamination #1 - String
+const contamination = (text, char) => char.repeat(text.length)
+
+
+
+
+
+
 // The Wide-Mouthed frog!
 const mouthSize = animal => /alligator/i.test(animal) ? 'small' : 'wide'
 
