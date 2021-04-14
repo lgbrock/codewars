@@ -1,3 +1,11 @@
+// Are You Playing Banjo?
+const areYouPlayingBanjo = (name) => name.includes(/^[rR]/) ? `${name} plays banjo` : `${name} does not play banjo`
+
+
+
+
+
+/*
 // Expressions Matter
 const expressionMatter = (a, b, c) => Math.max(a*(b+c), a*b*c, a+b+c, (a+b)*c)
 
@@ -5,7 +13,7 @@ const expressionMatter = (a, b, c) => Math.max(a*(b+c), a*b*c, a+b+c, (a+b)*c)
 
 
 
-/*
+
 // Contamination #1 - String
 const contamination = (text, char) => char.repeat(text.length)
 
