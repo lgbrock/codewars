@@ -1,3 +1,15 @@
+// Abbreviate a Two Word Name
+const abbrevName = (name) => {
+  let abr = name.split(' ')
+  return abr[0].charAt(0).toUpperCase() + '.' + abr[1].charAt(0).toUpperCase()
+}
+
+
+
+
+
+
+/*
 // Square(n) Sum
 const squareSum = (nums) => nums.reduce((a, b) => b ** 2 + a, 0)
 
@@ -5,7 +17,7 @@ const squareSum = (nums) => nums.reduce((a, b) => b ** 2 + a, 0)
 
 
 
-/*
+
 // Are You Playing Banjo?
 const areYouPlayingBanjo = (name) => (/^[rR]/.test(name)) ? `${name} plays banjo` : `${name} does not play banjo`
 
