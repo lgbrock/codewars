@@ -1,10 +1,17 @@
-//
 
 
 
 
 
 /*
+// Invert values
+const invert = (array) => array.map(x => x === 0 ? x : -x)
+
+
+
+
+
+
 // Abbreviate a Two Word Name
 const abbrevName = (name) => {
   let abr = name.split(' ')
