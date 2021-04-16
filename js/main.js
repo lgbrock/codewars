@@ -1,3 +1,10 @@
+//
+
+
+
+
+
+/*
 // Abbreviate a Two Word Name
 const abbrevName = (name) => {
   let abr = name.split(' ')
@@ -9,7 +16,7 @@ const abbrevName = (name) => {
 
 
 
-/*
+
 // Square(n) Sum
 const squareSum = (nums) => nums.reduce((a, b) => b ** 2 + a, 0)
 
