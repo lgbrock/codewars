@@ -1,9 +1,17 @@
-
+// Area or Perimeter
+const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w);
 
 
 
 
 /*
+// DNA to RNA Conversion
+const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
+
+
+
+
+
 // Invert values
 const invert = (array) => array.map(x => x === 0 ? x : -x)
 
