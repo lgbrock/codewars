@@ -1,10 +1,19 @@
+// Volume of a Cuboid
+const Kata = {
+  getVolumeOfCuboid: (l, w, h) => l * w * h
+}
+
+
+
+
+/*
 // Area or Perimeter
 const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w);
 
 
 
 
-/*
+
 // DNA to RNA Conversion
 const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
 
