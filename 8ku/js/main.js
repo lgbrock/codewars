@@ -1,3 +1,33 @@
+// Welcome!
+const greet = (language) => {
+  const db = {
+    english: 'Welcome',
+    czech: 'Vitejte',
+    danish: 'Velkomst',
+    dutch: 'Welkom',
+    estonian: 'Tere tulemast',
+    finnish: 'Tervetuloa',
+    flemish: 'Welgekomen',
+    french: 'Bienvenue',
+    german: 'Willkommen',
+    irish: 'Failte',
+    italian: 'Benvenuto',
+    latvian: 'Gaidits',
+    lithuanian: 'Laukiamas',
+    polish: 'Witamy',
+    spanish: 'Bienvenido',
+    swedish: 'Valkommen',
+    welsh: 'Croeso',
+  };
+  
+  return db[language] || db.english;
+};
+
+
+
+
+
+/*
 // Volume of a Cuboid
 const Kata = {
   getVolumeOfCuboid: (l, w, h) => l * w * h
@@ -6,7 +36,7 @@ const Kata = {
 
 
 
-/*
+
 // Area or Perimeter
 const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w);
 
