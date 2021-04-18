@@ -1,3 +1,11 @@
+// Double Char
+const doubleChar = (str) => str.split(' ').map((a) => `${a}${a}`).join('')
+
+console.log(doubleChar('abc'))
+
+
+
+/*
 // Welcome!
 const greet = (language) => {
   const db = {
@@ -27,7 +35,7 @@ const greet = (language) => {
 
 
 
-/*
+
 // Volume of a Cuboid
 const Kata = {
   getVolumeOfCuboid: (l, w, h) => l * w * h
