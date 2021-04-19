@@ -1,3 +1,10 @@
+// Opposites Attract
+const lovefunc = (flower1, flower2) => flower1 % 2 !== flower2 % 2
+
+
+
+
+/*
 // Double Char
 const doubleChar = (str) => str.split(' ').map((a) => `${a}${a}`).join('')
 
@@ -5,7 +12,7 @@ console.log(doubleChar('abc'))
 
 
 
-/*
+
 // Welcome!
 const greet = (language) => {
   const db = {
