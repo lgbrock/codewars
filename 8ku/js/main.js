@@ -1,10 +1,18 @@
+// Sort and Star
+const twoSort = (s) => s.sort().split().join('***')
+
+
+
+
+
+/*
 // Can we divide it?
 const isDivideBy = (num, a, b) => num % a === 0 && num % b === 0;
 
 
 
 
-/*
+
 // Opposites Attract
 const lovefunc = (flower1, flower2) => flower1 % 2 !== flower2 % 2
 
