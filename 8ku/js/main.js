@@ -1,3 +1,10 @@
+// Parse nice int from char problem
+const getAge = (inputString) => parseInt(inputString)
+
+
+
+
+/*
 // Sort and Star
 const twoSort = (s) => s.sort().split().join('***')
 
@@ -5,7 +12,7 @@ const twoSort = (s) => s.sort().split().join('***')
 
 
 
-/*
+
 // Can we divide it?
 const isDivideBy = (num, a, b) => num % a === 0 && num % b === 0;
 
