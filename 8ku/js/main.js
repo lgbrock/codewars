@@ -1,10 +1,16 @@
-// Parse nice int from char problem
-const getAge = (inputString) => parseInt(inputString)
-
+// All Star Code Challenge #18
+const strCount = (str, letter) => str.split(letter).length-1 
 
 
 
 /*
+// Parse nice int from char problem
+const getAge = (inputString) => parseInt(inputString)
+console.log(parseInt('2 years old'))
+
+
+
+
 // Sort and Star
 const twoSort = (s) => s.sort().split().join('***')
 
