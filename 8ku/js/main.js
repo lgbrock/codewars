@@ -1,9 +1,20 @@
+
+
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode 
+
 // All Star Code Challenge #18
 const strCount = (str, letter) => str.split(letter).length-1 
 
 
 
-/*
+
 // Parse nice int from char problem
 const getAge = (inputString) => parseInt(inputString)
 console.log(parseInt('2 years old'))
