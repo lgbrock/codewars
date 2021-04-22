@@ -1,3 +1,7 @@
+// Grasshopper - Terminal game move function
+const move = (position, roll) => position + roll * 2;
+
+
 
 
 
