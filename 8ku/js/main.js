@@ -1,9 +1,12 @@
-// Grasshopper - Terminal game move function
-const move = (position, roll) => position + roll * 2;
-
-
-
-
+// Grasshopper - Terminal Game Turn Function
+function doTurn() {
+  rollDice();
+  move();
+  combat();
+  getCoins();
+  buyHealth();
+  printStatus();
+}
 
 
 
@@ -12,6 +15,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode 
+
+// Grasshopper - Terminal game move function
+const move = (position, roll) => position + roll * 2;
+
+
+
+
 
 // All Star Code Challenge #18
 const strCount = (str, letter) => str.split(letter).length-1 
@@ -28,7 +38,6 @@ console.log(parseInt('2 years old'))
 
 // Sort and Star
 const twoSort = (s) => s.sort().split().join('***')
-
 
 
 
