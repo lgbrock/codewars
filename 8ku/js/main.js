@@ -1,3 +1,16 @@
+// get character from ASCII Value
+const getChar = (c) => String.fromCharCode(c)
+
+
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode 
+
 // Grasshopper - Terminal Game Turn Function
 function doTurn() {
   rollDice();
@@ -10,11 +23,7 @@ function doTurn() {
 
 
 
-/*
-p => parameters passed in to the function
-r => what the the result of the function should be e.g          string array etc
-e=> examples of input and expected output
-p=> psuedocode 
+
 
 // Grasshopper - Terminal game move function
 const move = (position, roll) => position + roll * 2;
