@@ -1,13 +1,22 @@
-// Twice as old
-const twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYearsOld - 2 * sonYearsOld)
-console.log(twiceAsOld(40, 20))
+//
+
+
+
 
 
 /*
 p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
-p=> psuedocode 
+p=> psuedocode
+
+
+// Twice as old
+const twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYearsOld - 2 * sonYearsOld)
+console.log(twiceAsOld(40, 20))
+
+
+ 
 
 // get character from ASCII Value
 const getChar = (c) => String.fromCharCode(c)
