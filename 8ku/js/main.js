@@ -1,10 +1,11 @@
-// Student's Final Grade
-const finalGrade = (exam, projects) => {
-  if(exam > 90 || projects > 10) return 100;
-  if(exam > 75 & projects >= 5) return 90;
-  if(exam > 50 & projects >= 2) return 75;
-  return 0;
-}
+// Filter out the geese
+const gooseFilter = (birds) => {
+  let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter((b => !geese.includes(b)))
+};
+
+
+
 
 
 
@@ -14,6 +15,16 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Student's Final Grade
+const finalGrade = (exam, projects) => {
+  if(exam > 90 || projects > 10) return 100;
+  if(exam > 75 & projects >= 5) return 90;
+  if(exam > 50 & projects >= 2) return 75;
+  return 0;
+}
+
+
 
 
 // Twice as old
