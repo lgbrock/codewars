@@ -1,7 +1,5 @@
-// Get number from string
-const getNumberFromString = s => Number(s.match(/\d/g).join(""));
-console.log(getNumberFromString('hi6'))
-
+// Type of sum
+const typeOfSum = (a, b) => typeof(a + b)
 
 
 
@@ -11,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Get number from string
+const getNumberFromString = s => Number(s.match(/\d/g).join(""));
+console.log(getNumberFromString('hi6'))
+
+
+
 
 
 // Filter out the geese
