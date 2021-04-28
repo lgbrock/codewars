@@ -1,10 +1,6 @@
-// Filter out the geese
-const gooseFilter = (birds) => {
-  let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-  return birds.filter((b => !geese.includes(b)))
-};
-
-
+// Get number from string
+const getNumberFromString = s => Number(s.match(/\d/g).join(""));
+console.log(getNumberFromString('hi6'))
 
 
 
@@ -15,6 +11,17 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Filter out the geese
+const gooseFilter = (birds) => {
+  let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter((b => !geese.includes(b)))
+};
+
+
+
+
 
 // Student's Final Grade
 const finalGrade = (exam, projects) => {
