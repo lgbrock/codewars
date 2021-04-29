@@ -1,6 +1,8 @@
-// Reversed sequence
-const reverseSeq = n => Array(n).fill(0).map((e, i) => n - i) 
-console.log(reverseSeq(6))
+// USD => CNY
+const usdcny = (usd) => `${(usd * 6.75).toFixed(2)} Chinese Yuan`
+console.log(usdcny(1))
+
+
 
 
 
@@ -9,6 +11,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Reversed sequence
+const reverseSeq = n => Array(n).fill(0).map((e, i) => n - i) 
+console.log(reverseSeq(6))
+
+
+
 
 // Type of sum
 const typeOfSum = (a, b) => typeof(a + b)
