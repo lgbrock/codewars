@@ -1,6 +1,6 @@
-// Type of sum
-const typeOfSum = (a, b) => typeof(a + b)
-
+// Reversed sequence
+const reverseSeq = n => Array(n).fill(0).map((e, i) => n - i) 
+console.log(reverseSeq(6))
 
 
 
@@ -9,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Type of sum
+const typeOfSum = (a, b) => typeof(a + b)
+
+
+
+
 
 // Get number from string
 const getNumberFromString = s => Number(s.match(/\d/g).join(""));
