@@ -1,8 +1,13 @@
-// USD => CNY
-const usdcny = (usd) => `${(usd * 6.75).toFixed(2)} Chinese Yuan`
-console.log(usdcny(1))
-
-
+// Grasshopper - Terminal Game #1
+class Hero {
+  constructor(name){
+    this.name = name || 'Hero';
+    this.position = '00'
+    this.health = 100;
+    this.damage = 5;
+    this.experience = 0;
+  }
+}
 
 
 
@@ -11,6 +16,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// USD => CNY
+const usdcny = (usd) => `${(usd * 6.75).toFixed(2)} Chinese Yuan`
+console.log(usdcny(1))
+
+
+
 
 // Reversed sequence
 const reverseSeq = n => Array(n).fill(0).map((e, i) => n - i) 
