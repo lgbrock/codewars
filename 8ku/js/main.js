@@ -1,3 +1,15 @@
+//
+
+
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode
+
 // Grasshopper - Terminal Game #1
 class Hero {
   constructor(name){
@@ -11,11 +23,6 @@ class Hero {
 
 
 
-/*
-p => parameters passed in to the function
-r => what the the result of the function should be e.g          string array etc
-e=> examples of input and expected output
-p=> psuedocode
 
 // USD => CNY
 const usdcny = (usd) => `${(usd * 6.75).toFixed(2)} Chinese Yuan`
