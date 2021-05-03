@@ -1,3 +1,16 @@
+// Freudian translator
+const toFreud = (string) => {
+  return string.replace(/\w+/g,"sex");
+}
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode
+
 // Grasshopper - Bug Squashing
 let health = 100
 let position = 0
@@ -14,13 +27,6 @@ function main () {
 
 
 
-
-
-/*
-p => parameters passed in to the function
-r => what the the result of the function should be e.g          string array etc
-e=> examples of input and expected output
-p=> psuedocode
 
 // Grasshopper - Terminal Game #1
 class Hero {
