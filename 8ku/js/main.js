@@ -1,7 +1,5 @@
-// Freudian translator
-const toFreud = (string) => {
-  return string.replace(/\w+/g,"sex");
-}
+// 
+
 
 
 
@@ -10,6 +8,14 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Freudian translator
+const toFreud = (string) => {
+  return string.replace(/\w+/g,"sex");
+}
+
+
+
 
 // Grasshopper - Bug Squashing
 let health = 100
