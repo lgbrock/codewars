@@ -1,4 +1,4 @@
-// Another quick update
+// Back to codewars tomorrow
 
 
 
