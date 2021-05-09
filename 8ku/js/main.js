@@ -1,4 +1,5 @@
-// Back to codewars tomorrow
+// Reversed Words
+const reverseWords = (str) => str.split(" ").reverse().join(" ");
 
 
 
