@@ -1,5 +1,6 @@
-// My head is at the wrong end!
-fixTheMeerkat = arr => arr.reverse()
+// Find numbers which are divisible by given number
+const divisibleBy = (numbers, divisor) => [...numbers].filter(n => n % divisor === 0)
+
 
 
 
@@ -8,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// My head is at the wrong end!
+fixTheMeerkat = arr => arr.reverse()
+
+
+
+
 
 // Reversed Words
 const reverseWords = (str) => str.split(" ").reverse().join(" ");
