@@ -1,6 +1,5 @@
-// Reversed Words
-const reverseWords = (str) => str.split(" ").reverse().join(" ");
-
+// My head is at the wrong end!
+fixTheMeerkat = arr => arr.reverse()
 
 
 
@@ -9,6 +8,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Reversed Words
+const reverseWords = (str) => str.split(" ").reverse().join(" ");
+
+
+
+
 
 // Freudian translator
 const toFreud = (string) => {
