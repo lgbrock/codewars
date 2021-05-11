@@ -1,5 +1,6 @@
-// Do I get a bonus?
-const bonusTime = (salary, bonus) => bonus ? `$${10 * salary}` : `$${salary}`
+// Short Long Short
+const solution = (a, b) => a.length < b.length ? a + b + a : b + a + b
+
 
 
 
@@ -8,6 +9,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Do I get a bonus?
+const bonusTime = (salary, bonus) => bonus ? `$${10 * salary}` : `$${salary}`
+
+
+
 
 // Find numbers which are divisible by given number
 const divisibleBy = (numbers, divisor) => [...numbers].filter(n => n % divisor === 0)
