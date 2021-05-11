@@ -1,6 +1,5 @@
-// Find numbers which are divisible by given number
-const divisibleBy = (numbers, divisor) => [...numbers].filter(n => n % divisor === 0)
-
+// Do I get a bonus?
+const bonusTime = (salary, bonus) => bonus ? `$${10 * salary}` : `$${salary}`
 
 
 
@@ -9,6 +8,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Find numbers which are divisible by given number
+const divisibleBy = (numbers, divisor) => [...numbers].filter(n => n % divisor === 0)
+
+
+
+
 
 // My head is at the wrong end!
 fixTheMeerkat = arr => arr.reverse()
