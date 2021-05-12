@@ -1,5 +1,10 @@
-// Short Long Short
-const solution = (a, b) => a.length < b.length ? a + b + a : b + a + b
+// Regular Ball Super Ball
+class Ball {
+  constructor (ballType = 'regular') {
+  this.ballType = ballType
+}
+}
+
 
 
 
@@ -9,6 +14,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Short Long Short
+const solution = (a, b) => a.length < b.length ? a + b + a : b + a + b
+
+
+
 
 // Do I get a bonus?
 const bonusTime = (salary, bonus) => bonus ? `$${10 * salary}` : `$${salary}`
@@ -22,17 +33,14 @@ const divisibleBy = (numbers, divisor) => [...numbers].filter(n => n % divisor =
 
 
 
-
 // My head is at the wrong end!
 fixTheMeerkat = arr => arr.reverse()
 
 
 
 
-
 // Reversed Words
 const reverseWords = (str) => str.split(" ").reverse().join(" ");
-
 
 
 
