@@ -1,9 +1,6 @@
-// Regular Ball Super Ball
-class Ball {
-  constructor (ballType = 'regular') {
-  this.ballType = ballType
-}
-}
+// noobCode 01: SUPERSIZE ME.... or rather, this integer!
+const superSize = (num) => Number(String(num).split("").sort((a,b)=>b-a).join(''));
+
 
 
 
@@ -14,6 +11,17 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Regular Ball Super Ball
+class Ball {
+  constructor (ballType = 'regular') {
+  this.ballType = ballType
+  }
+}
+
+
+
 
 // Short Long Short
 const solution = (a, b) => a.length < b.length ? a + b + a : b + a + b
