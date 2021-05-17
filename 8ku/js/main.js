@@ -1,5 +1,5 @@
-// Sum The Strings
-const sumStr = (a,b) => String(Number(a) + Number(b))
+// quick update
+
 
 
 
@@ -10,6 +10,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Sum The Strings
+const sumStr = (a,b) => String(Number(a) + Number(b))
+
+
+
+
 
 // noobCode 01: SUPERSIZE ME.... or rather, this integer!
 const superSize = (num) => Number(String(num).split("").sort((a,b)=>b-a).join(''));
