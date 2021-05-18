@@ -1,7 +1,5 @@
-// What's the real floor?
-const getRealFloor = (n) => n > 13 ? n - 2 : n > 0 ? n - 1 : n
-
-
+// Thinkful - Logic Drills: Traffic light
+const updateLight = (current) => current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
 
 
 
@@ -11,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// What's the real floor?
+const getRealFloor = (n) => n > 13 ? n - 2 : n > 0 ? n - 1 : n
+
+
+
+
 
 // Sum The Strings
 const sumStr = (a,b) => String(Number(a) + Number(b))
