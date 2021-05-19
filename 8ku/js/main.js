@@ -1,5 +1,8 @@
-// Thinkful - Logic Drills: Traffic light
-const updateLight = (current) => current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+// Total amount of points
+const points = (games) => games.reduce((output, current) => {
+  return output += current[0]>current[2] ? 3 : current[0] === current[2] ? 1 : 0;
+}, 0)
+
 
 
 
@@ -9,6 +12,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Thinkful - Logic Drills: Traffic light
+const updateLight = (current) => current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+
+
+
 
 // What's the real floor?
 const getRealFloor = (n) => n > 13 ? n - 2 : n > 0 ? n - 1 : n
