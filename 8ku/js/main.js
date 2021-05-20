@@ -1,8 +1,5 @@
-// Total amount of points
-const points = (games) => games.reduce((output, current) => {
-  return output += current[0] > current[2] ? 3 : current[0] === current[2] ? 1 : 0;
-}, 0)
-
+// Do you speak "English"?
+const spEng = (sentence) => /english/i.test(sentence)
 
 
 
@@ -12,6 +9,14 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Total amount of points
+const points = (games) => games.reduce((output, current) => {
+  return output += current[0] > current[2] ? 3 : current[0] === current[2] ? 1 : 0;
+}, 0)
+
+
+
 
 // Thinkful - Logic Drills: Traffic light
 const updateLight = (current) => current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
