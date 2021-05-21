@@ -1,5 +1,4 @@
-// Do you speak "English"?
-const spEng = (sentence) => /english/i.test(sentence)
+// Quick update
 
 
 
@@ -9,6 +8,14 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+
+// Do you speak "English"?
+const spEng = (sentence) => /english/i.test(sentence)
+
+
+
 
 // Total amount of points
 const points = (games) => games.reduce((output, current) => {
