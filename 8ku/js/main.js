@@ -1,5 +1,5 @@
-// Template Strings
-const TempleStrings = (obj, feature) => `${obj} are ${feature}`
+// Enumerable Magic #25 - Take the First N Elements
+const take = (arr, n) => arr.slice(0, n)
 
 
 
@@ -9,6 +9,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Template Strings
+const TempleStrings = (obj, feature) => `${obj} are ${feature}`
+
+
 
 
 
