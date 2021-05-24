@@ -1,6 +1,5 @@
-// Enumerable Magic #25 - Take the First N Elements
-const take = (arr, n) => arr.slice(0, n)
-
+// Merge two sorted arrays into one
+const mergeArrays = (a, b) => [... new Set(a.concat(b))].sort((a, b) => a - b)
 
 
 
@@ -9,6 +8,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Enumerable Magic #25 - Take the First N Elements
+const take = (arr, n) => arr.slice(0, n)
+
+
+
 
 
 // Template Strings
