@@ -1,5 +1,6 @@
-// Merge two sorted arrays into one
-const mergeArrays = (a, b) => [... new Set(a.concat(b))].sort((a, b) => a - b)
+// Pick a set of first elements
+const first = (arr, n=1) => arr.slice(0, n)
+
 
 
 
@@ -8,6 +9,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Merge two sorted arrays into one
+const mergeArrays = (a, b) => [... new Set(a.concat(b))].sort((a, b) => a - b)
+
+
 
 
 // Enumerable Magic #25 - Take the First N Elements
