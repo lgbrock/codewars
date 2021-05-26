@@ -1,6 +1,5 @@
-// Pick a set of first elements
-const first = (arr, n=1) => arr.slice(0, n)
-
+// Price of Mangos
+const mango = (quantity, price) => (quantity - Math.floor(quantity/3)) * price
 
 
 
@@ -9,6 +8,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Pick a set of first elements
+const first = (arr, n=1) => arr.slice(0, n)
+
+
 
 
 // Merge two sorted arrays into one
