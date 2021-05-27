@@ -1,5 +1,10 @@
-// Price of Mangos
-const mango = (quantity, price) => (quantity - Math.floor(quantity/3)) * price
+// UEFA EURO 2016
+const uefaEuro2016 = ([t1,t2], [s1,s2]) => {
+  if (s1==s2) return `At match ${t1} - ${t2}, teams played draw.`
+  if (s2>s1) return `At match ${t1} - ${t2}, ${t2} won!`
+  if (s2<s1) return `At match ${t1} - ${t2}, ${t1} won!`
+}
+
 
 
 
@@ -8,6 +13,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Price of Mangos
+const mango = (quantity, price) => (quantity - Math.floor(quantity/3)) * price
+
+
 
 
 // Pick a set of first elements
