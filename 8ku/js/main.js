@@ -1,9 +1,5 @@
-// UEFA EURO 2016
-const uefaEuro2016 = ([t1,t2], [s1,s2]) => {
-  if (s1==s2) return `At match ${t1} - ${t2}, teams played draw.`
-  if (s2>s1) return `At match ${t1} - ${t2}, ${t2} won!`
-  if (s2<s1) return `At match ${t1} - ${t2}, ${t1} won!`
-}
+// Are arrow functions odd?
+const odds = (values) => values.filter( x => x % 2 != 0)
 
 
 
@@ -13,6 +9,17 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// UEFA EURO 2016
+const uefaEuro2016 = ([t1,t2], [s1,s2]) => {
+  if (s1==s2) return `At match ${t1} - ${t2}, teams played draw.`
+  if (s2>s1) return `At match ${t1} - ${t2}, ${t2} won!`
+  if (s2<s1) return `At match ${t1} - ${t2}, ${t1} won!`
+}
+
+
+
 
 
 // Price of Mangos
