@@ -1,5 +1,5 @@
-// Are arrow functions odd?
-const odds = (values) => values.filter( x => x % 2 != 0)
+// Find the position!
+const position = (letter) => `Position of alphabet: ${letter.charCodeAt()-96}`
 
 
 
@@ -9,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Are arrow functions odd?
+const odds = (values) => values.filter( x => x % 2 != 0)
+
+
+
 
 
 // UEFA EURO 2016
