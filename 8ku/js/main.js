@@ -1,7 +1,7 @@
-// Find the position!
-const position = (letter) => `Position of alphabet: ${letter.charCodeAt()-96}`
-
-
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+String.prototype.toAlternatingCase =  () => {
+  this.split("").map( a => a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()).join('')
+}
 
 
 /*
@@ -9,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Find the position!
+const position = (letter) => `Position of alphabet: ${letter.charCodeAt()-96}`
+
+
+
 
 
 // Are arrow functions odd?
