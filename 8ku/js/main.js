@@ -1,7 +1,6 @@
-// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
-String.prototype.toAlternatingCase =  () => {
-  this.split("").map( a => a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()).join('')
-}
+// Take the Derivative
+const derive = (coefficient,exponent) => `${coefficient * exponent}x^${exponent -1}`
+
 
 
 /*
@@ -9,6 +8,14 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+String.prototype.toAlternatingCase =  () => {
+  this.split("").map( a => a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()).join('')
+}
+
+
 
 
 // Find the position!
