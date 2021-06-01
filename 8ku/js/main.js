@@ -1,5 +1,17 @@
-// Take the Derivative
-const derive = (coefficient,exponent) => `${coefficient * exponent}x^${exponent -1}`
+// Polish Alphabet
+const polishDictionary = {
+  ą: 'a',
+  ć: 'c',
+  ę: 'e',
+  ł: 'l',
+  ń: 'n',
+  ó: 'o',
+  ś: 's',
+  ź: 'z',
+  ż: 'z',
+}
+
+const correctPolishLetters = (string) => string.replace(/[ąćęłńóśźż]/ig, char => polishDictionary[char] || char)
 
 
 
@@ -8,6 +20,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Take the Derivative
+const derive = (coefficient,exponent) => `${coefficient * exponent}x^${exponent -1}`
+
+
 
 
 // altERnaTIng cAsE <=> ALTerNAtiNG CaSe
