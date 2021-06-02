@@ -1,3 +1,17 @@
+// No zeros for heros
+const noBoringZeros = (n) => +(`${n}`.replace(/0+$/, ''))
+
+
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode
+
+
 // Polish Alphabet
 const polishDictionary = {
   ą: 'a',
@@ -14,12 +28,6 @@ const polishDictionary = {
 const correctPolishLetters = (string) => string.replace(/[ąćęłńóśźż]/ig, char => polishDictionary[char] || char)
 
 
-
-/*
-p => parameters passed in to the function
-r => what the the result of the function should be e.g          string array etc
-e=> examples of input and expected output
-p=> psuedocode
 
 
 // Take the Derivative
