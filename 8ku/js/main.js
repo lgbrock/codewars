@@ -1,6 +1,5 @@
-// No zeros for heros
-const noBoringZeros = (n) => +(`${n}`.replace(/0+$/, ''))
-
+// Sum of differences in array
+const sumOfDifferences = (arr) => arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0
 
 
 
@@ -10,6 +9,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// No zeros for heros
+const noBoringZeros = (n) => +(`${n}`.replace(/0+$/, ''))
+
+
 
 
 // Polish Alphabet
