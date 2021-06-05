@@ -1,5 +1,6 @@
-// get ascii value of character
-const getASCII = (c) => c.charCodeAt(0)
+// 
+
+
 
 
 
@@ -9,6 +10,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// get ascii value of character
+const getASCII = (c) => c.charCodeAt(0)
+
+
+
 
 // Sum of differences in array
 const sumOfDifferences = (arr) => arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0
