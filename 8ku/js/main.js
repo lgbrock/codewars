@@ -1,6 +1,12 @@
-// Convert to Binary
-const toBinary = (n) => +n.toString(2)
-
+// Grasshopper - Create the rooms
+const rooms = {
+  room1: {
+    name:'a', description:'b', completed:'c'},
+  room2: {
+    name:'a', description:'b', completed:'c'},
+  room3: {
+    name:'a', description:'b', completed:'c'}
+}
 
 
 
@@ -10,6 +16,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+// Convert to Binary
+const toBinary = (n) => +n.toString(2)
+
+
+
 
 // get ascii value of character
 const getASCII = (c) => c.charCodeAt(0)
