@@ -1,3 +1,16 @@
+// Powers of 2
+const powersOfTwo = (n) => Array.from({length: n + 1}, (a, b) => 2 ** b)
+
+
+
+
+/*
+p => parameters passed in to the function
+r => what the the result of the function should be e.g          string array etc
+e=> examples of input and expected output
+p=> psuedocode
+
+
 // Grasshopper - Create the rooms
 const rooms = {
   room1: {
@@ -10,12 +23,6 @@ const rooms = {
 
 
 
-
-/*
-p => parameters passed in to the function
-r => what the the result of the function should be e.g          string array etc
-e=> examples of input and expected output
-p=> psuedocode
 
 // Convert to Binary
 const toBinary = (n) => +n.toString(2)
