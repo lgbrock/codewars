@@ -1,5 +1,6 @@
-// Powers of 2
-const powersOfTwo = (n) => Array.from({length: n + 1}, (a, b) => 2 ** b)
+// Pre-FizzBuzz Workout #1
+const preFizz = (n) => Array.from({length: n}, (_, i) => i + 1)
+
 
 
 
@@ -9,6 +10,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Powers of 2
+const powersOfTwo = (n) => Array.from({length: n + 1}, (a, b) => 2 ** b)
+
+
 
 
 // Grasshopper - Create the rooms
