@@ -1,5 +1,5 @@
-// Pre-FizzBuzz Workout #1
-const preFizz = (n) => Array.from({length: n}, (_, i) => i + 1)
+// Alan Partridge II - Apple Turnover
+const apple = (x) => Number(x) ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
 
 
 
@@ -10,6 +10,12 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Pre-FizzBuzz Workout #1
+const preFizz = (n) => Array.from({length: n}, (_, i) => i + 1)
+
+
 
 
 // Powers of 2
