@@ -1,6 +1,5 @@
-// Alan Partridge II - Apple Turnover
-const apple = (x) => Number(x) ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
-
+// Grasshopper - Check for factor
+const checkForFactor = (base, factor) => base % factor == 0
 
 
 
@@ -10,6 +9,13 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Alan Partridge II - Apple Turnover
+const apple = (x) => Math.pow(x, 2) > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
+
+
+
 
 
 // Pre-FizzBuzz Workout #1
