@@ -1,7 +1,5 @@
-// NBA full 48 minutes average
-const pointsPer48 = (ppg, mpg) => mpg ? Number((ppg/mpg * 48).toFixed(1)) : 0
+// Quick update
 
-const pointsPer48 = (ppg, mpg) => +(ppg/mpg * 48).toFixed(1) || 0
 
 
 
@@ -10,6 +8,14 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+
+// NBA full 48 minutes average
+const pointsPer48 = (ppg, mpg) => mpg ? Number((ppg/mpg * 48).toFixed(1)) : 0
+
+const pointsPer48 = (ppg, mpg) => +(ppg/mpg * 48).toFixed(1) || 0
+
 
 
 // Grasshopper - Check for factor
