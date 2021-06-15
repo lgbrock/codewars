@@ -1,6 +1,5 @@
-// Is there a vowel in there?
-const isVow = (a) => a.map(charCode => /[aeiou]/.test(String.fromCharCode(charCode)) ? String.fromCharCode(charCode) : charCode)
-
+// The Feast of Many Beasts
+const feast = (beast, dish) => beast[0] === dish[0] && beast[beat.length - 1] === dish[dish.length - 1]
 
 
 /*
@@ -8,6 +7,11 @@ p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
 p=> psuedocode
+
+
+// Is there a vowel in there?
+const isVow = (a) => a.map(charCode => /[aeiou]/.test(String.fromCharCode(charCode)) ? String.fromCharCode(charCode) : charCode)
+
 
 
 
