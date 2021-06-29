@@ -2,7 +2,7 @@
 const feast = (beast, dish) => beast[0] === dish[0] && beast[beat.length - 1] === dish[dish.length - 1]
 
 
-/*
+
 p => parameters passed in to the function
 r => what the the result of the function should be e.g          string array etc
 e=> examples of input and expected output
@@ -586,7 +586,6 @@ const howManyLightsabersDoYouOwn = (name) => (name === 'Zach' ? 18 : 0)
 
 
 
-
 // Filling an array (part 1)
 const arr = N => (N ? [...new Array(N).keys()] : []);
 
@@ -594,11 +593,8 @@ const arr = N => (N ? [...new Array(N).keys()] : []);
 
 
 
-
 // Palindrome strings
-const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
-
-
+const isPalindrome = (word) => (''+word) === (''+word).split('').reverse().join('')
 
 
 
@@ -606,7 +602,6 @@ const isPalindrome = (num) => (''+num) === (''+num).split('').reverse().join('')
 
 // Reverse list order
 const reverseList = list => list.reverse()
-
 
 
 
@@ -639,7 +634,6 @@ const findDifference = ([a,b,c], [d,e,f]) => Math.abs(a*b*c - d*e*f)
 
 
 
-
 // Rock Paper Scissors!
 const rps = (p1, p2) => {
   if(p1 === 'rock' && p2 === 'scissors' || p1 === 'paper' && p2 === 'rock' || p1 === 'scissors' && p2 === 'paper'){
@@ -662,7 +656,6 @@ const enough = (o, a, b) => a + b > o ? a + b - o : 0
 
 
 
-
 // Quarter of the year
 const quarterOf = (m) => {
   if(m <= 3){
@@ -675,7 +668,6 @@ const quarterOf = (m) => {
     return 4
   }
 }
-
 
 
 
